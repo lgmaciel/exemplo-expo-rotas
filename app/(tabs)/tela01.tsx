@@ -1,7 +1,6 @@
-import { Link } from "expo-router";
 import { Text, View } from "react-native";
 
-export default function Index() {
+export default function Tela01() {
   return (
     <View
       style={{
@@ -10,9 +9,7 @@ export default function Index() {
         alignItems: "center",
       }}
     >
-      <Text>Index</Text>
-      <Link href="/tela01"> Abre tela 01</Link>
-      <Link href="/admin"> Área do admin</Link>
+      <Text>Tela 01</Text>
     </View>
   );
 }
